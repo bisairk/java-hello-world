@@ -3,7 +3,7 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.springframework</groupId>
-    <artifactId>jb-hello-world-maven</artifactId>
+    <artifactId>github-actions</artifactId>
     <packaging>jar</packaging>
     <version>0.2.0</version>
 
@@ -24,7 +24,6 @@
        <!-- end::joda[] -->
        
     <build>
-        <finalname>github-actions</finalname>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -48,5 +47,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalname>github-actions</finalname>
     </build>
 </project>
