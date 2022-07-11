@@ -47,6 +47,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalname>github-actions</finalname>
+        <finalname>rkb-images</finalname>
     </build>
 </project>
