@@ -24,6 +24,7 @@
        <!-- end::joda[] -->
        
     <build>
+        <finalname>github-actions</finalname>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -47,6 +48,5 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalname>github-actions</finalname>
     </build>
 </project>
