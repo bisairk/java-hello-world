@@ -47,5 +47,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <finalName>rkb-images</finalName>
     </build>
 </project>
