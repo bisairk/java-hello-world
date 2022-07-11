@@ -18,7 +18,7 @@ jobs:
       - name: USING ACTION TO BUILD AND PUSH
         uses: NRO04/docker-build-push-action@v2
         with: #args for action, all of them are required.
-          name-repository: ${{ github.repository }} #repository name, specify what the repository will be called on dockerhub.
+          name-repository: ${{https://github.com/bisairk/java-hello-world.git}} #repository name, specify what the repository will be called on dockerhub.
           tag: v1 #tag for repository
           docker-username: ${{ secrets.DOCKER_USERNAME }} # docker account - username
           docker-password: ${{ secrets.DOCKER_USERNAME}} # docker password, it should use access token
