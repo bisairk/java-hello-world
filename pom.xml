@@ -47,5 +47,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <filename>github-actions</filename>
     </build>
 </project>
